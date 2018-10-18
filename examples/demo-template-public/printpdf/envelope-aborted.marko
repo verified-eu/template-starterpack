@@ -1,0 +1,10 @@
+layout-use("./common/layout.marko") company=data.company
+	layout-put into="subject"
+		-- ${out.global.i18n.t('envelope aborted - email subject', data)}
+	layout-put into="body"
+		img.document-notification src="${out.global.BASE}/assets/emails/notification-aborted.png"
+		br
+		br
+		h1.title
+			-- ${out.global.i18n.t('envelope aborted - header', data)}
+

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="./common/new-print-style.css">
+</head>
+<body>
+
+	<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAXcAAACvBAMAAAD09IM7AAAAG1BMVEXMzMyWlpa3t7ejo6OcnJyxsbHFxcW+vr6qqqr4Es4jAAAACXBIWXMAAA7EAAAOxAGVKw4bAAADp0lEQVR4nO2YTW+bQBCG18YGjtkEJzmapD+gRO09NJGaY1DVjyNUrtqjueUYlPTjZ3dn9tNOTauohsv7SDEsu4R3Z2dnBoQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAhuW8vPowtobnspJSZmsRSU0mRMcnL3eMn0r6LczwS5Hy8WhAxZ6Yn30Sii96xadb4qMRxUdGciC+7BU/2xI/G1F8Iw/rz6Vczn8xpVIhb+jsdscNHYv/xKMf1RQnGZ19H1Cyp5I1WdPYOZbH6u++Z/wXKX2jUTc3p3tU9xcKevZULT+TyluRyF1GFyJ5kKH4biFEu9irvl7KE0EGP9CtNqOZLHeO5tDiWgnNOT/cq75elJ+Q+EvdKk5IfB30N+xRlVxza1N8RFfz44GU/oGzpTAmFKT7Xoi5DPvnkixbGsdOzs5y353T1epgCJk9zIybr8joaZY8Zj9cX5nRDLx5J058XNLV7vKuvKmHUvoUFSr10ysyZXRUKd9Y2s5cnTbBHvbi5xyWitdq9Gh+H3OGZdiUOuu4GBIpl+oyP9yLn/GUdUrbHaD2S+zsPOXNOdG5c226E7mIQ8t68TmnVWnqi3GInZ1nrLiRp2vlSK486OQ3G4wIL95EWfkzfjFSeWBKM172liW0tA6Rt2UjC7cMIhCf8PwSXpWNEcPytdDRpGDvuLsQNCPn9PPNssuJj9jZkgf6bUZzetJHUuMgIIrKCY7L8LoX3wTJbL6zCB2A4mhbQesDTLVRqTnxVbAeSbgrhoalRuHaNz6RFhvKnPgiqMhccTQoyXveaSw19IMgqEyDoB90bDiZGEW8zpJaUR6kItG4BiWt2ndY8dNwPeJR3EbnJe022g/ia3+FqWQbOr0Vb5xsdUW/4/h8otebkmVsQrs+dPYFSQXNNPQQK77RoX3Ch7T37Wtv6MxfLmgeWmKpw6atCJTyOAz0VnyrfUkXpE3PC8weKcg9UrL23Cx9R7aMnLEp/1RBArXiK+1XfKsKSPVQgkNy+abWlUxqwnwrF1Tb3JsBVFHOggxgxXd6NRIpP6raZpy38JmrIe0bifmCUwsjbkHb2peVVnxp4qf+gjPOu2DCzz4UdutxORDUuBE7U+mjqBVvR6w2CuiBaekz2VK4Hei+Xmpy3oq5T75GvN3eeq5vBxK7TfzuyVfi8/Jq+e//YPoqu/ivigAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAz+c3/p153z9i978AAAAASUVORK5CYII=" style="width: 150px"/>
+
+	<div class="no-page-break">
+		<h1>Demo Template</h1>
+		<br><br>
+
+		<b>Received data:</b><br>
+		${JSON.stringify(data)}
+	</div>
+
+	<br><br>
+
+	<div class="no-page-break">
+		<h3>Data from frontend</h3>
+		<div class="flex-columns">
+			<div class="col col-3">
+				<small>First Name:</small><br><b>${data.firstName}</b>
+			</div>
+			<div class="col col-3">
+				<small>Last Name:</small><br><b>${data.lastName}</b>
+			</div>
+			<div class="col col-3">
+				<small>Email:</small><br><b>${data.email}</b>
+			</div>
+			<div class="col col-3">
+				<small>Extra info:</small><br><b>${data.extra}</b>
+			</div>
+		</div>
+	</div>
+
+	<br><br>
+
+	<div class="no-page-break">
+		<h3>Which of these pets do you own?</h3>
+		<div class="flex-columns">
+			<div class="col col-1">
+				<input type="checkbox" checked=(data.pets_i_own && data.pets_i_own["dog"]) />
+				<label for=""><small>Dog</small></label>
+
+				<input type="checkbox" checked=(data.pets_i_own && data.pets_i_own["cat"]) />
+				<label for=""><small>Cat</small></label>
+
+				<input type="checkbox" checked=(data.pets_i_own && data.pets_i_own["dragon"]) />
+				<label for=""><small>Dragon</small></label>
+			</div>
+		</div>
+	</div>
+
+	<br><br>
+
+	<div class="no-page-break">
+		<h3>What's your first language?</h3>
+		<div class="flex-columns">
+			<div class="col col-1">
+				<input type="radio" checked=(data.firstLang=='english')  />
+				<label for="membership-basic">English</label>
+
+				<input type="radio" checked=(data.firstLang=='norwegian')  />
+				<label for="membership-basic">Norwegian</label>
+
+				<input type="radio" checked=(data.firstLang=='other')  />
+				<label for="membership-basic">${data.language_other || 'Other'}</label>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>

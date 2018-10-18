@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+html lang="${out.global.i18n.locale}"
+	head
+		title
+			layout-placeholder name="subject"
+		<link rel="stylesheet" href='./common/emailStyles.css' >
+	body
+		table.wrapper cellpadding="0" cellspacing="0"
+			tr
+				td
+				td.main-column align="center"
+					div.main-column-max-width
+						table cellpadding="0" cellspacing="0"
+							tr
+								td.box align="center"
+									table width="100%" cellpadding="0" cellspacing="0"
+										tr
+											td
+											td.box-content align="center"
+												if(!data.company || !data.company.logo)
+													if(out.global.company.logo)
+														<img src="https://rsz.c11.io/148x/${out.global.company.logo}" class="logo" width="148" style="width: 148px; max-width: 148px" alt="logo" />
+													else
+														<img src="${out.global.BASE}/assets/emails/logo-verified.png" class="logo" width="148" style="width: 148px; max-width: 148px" alt="verified.eu" />
+												else
+													<img src="https://rsz.c11.io/148x/${data.company.logo}" class="logo" width="148" style="width: 148px; max-width: 148px" alt="logo ${data.company.name}"  />
+												br
+												br
+												br
+												layout-placeholder name="body"
+												br
+												br
+											td
+							tr
+								td.footer align="center"
+									pre.message
+										-- Ved spørsmål kontakt Maxbo Proff kundesenter på telefon 22 51 01 90
+									a target="_blank" href="www.verified.no"
+										<img class="footer-logo" alt="Verified logo" src="${out.global.BASE}/assets/emails/logo-verified.png" alt="verified.eu" />
+				td

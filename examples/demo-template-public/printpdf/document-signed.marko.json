@@ -1,0 +1,126 @@
+{
+  "envelope": {
+	"descriptor": "5824410c069a89001226e0e6",
+	"modified": "2016-11-18T23:29:02.275Z",
+	"created": "2016-11-18T23:28:41.258Z",
+	"uid": "/envelopes/582f8ea975eb4c0014f825c1",
+	"version": 562,
+	"expiration": null,
+	"greeting": "le greeting",
+	"deleted": false,
+	"automaticReminders": false,
+	"sequentialSigning": true,
+	"trashed": false,
+	"aborted": false,
+	"completed": false,
+	"published": true,
+	"tags": [],
+	"sender":{
+	  "givenName": "Joe",
+	  "familyName": "Doe",
+	  "uid": "/users/fake582f89",
+	  "email": "john.doe@gmail.com",
+	  "phone": ""
+	},
+	"owners": [
+	  {
+		"givenName": "Joe",
+		"familyName": "Doe",
+		"uid": "/users/fake582f89"
+	  }
+	],
+	"flow": {
+	  "id": "/flows/default",
+	  "name": "/flows/default"
+	},
+	"expired": false,
+	"id": "582f8ea975eb4c0014f825c1",
+	"documents": [
+	  {
+		"namespace": "/envelopes/582f8ea975eb4c0014f825c1",
+		"descriptor": "1",
+		"name": "195205111916-NO_NAME-CircleK-application.pdf",
+		"modified": "2016-11-18T23:28:47.545Z",
+		"created": "2016-11-18T23:28:47.545Z",
+		"uid": "/envelopes/582f8ea975eb4c0014f825c1/documents/582f8eaf75eb4c0014f825c3",
+		"version": 346,
+		"deleted": false,
+		"trashed": false,
+		"signed": false,
+		"rejected": false,
+		"tags": [],
+		"signatures": [],
+		"owners": [
+		  null
+		],
+		"files": [
+		  null
+		],
+		"source": "file",
+		"flow": [
+		  null
+		],
+		"id": "582f8eaf75eb4c0014f825c3"
+	  }
+	]
+  },
+  "recipient": {
+	"namespace": "/envelopes/582f8ea975eb4c0014f825c1",
+	"order": 100,
+	"signingMethod": "email",
+	"email": "jane@code11.com",
+	"language": "en",
+	"givenName": "Jane",
+	"familyName": "Doe",
+	"uid": "/envelopes/582f8ea975eb4c0014f825c1/recipients/582f8eb975eb4c0014f825c9",
+	"version": 112,
+	"deleted": false,
+	"completed": false,
+	"notified": false,
+	"demandAttachment": false,
+	"role": {
+	  "name": "signer",
+	  "action": "sign",
+	  "label": "Signer"
+	},
+	"id": "582f8eb975eb4c0014f825c9"
+  },
+
+  "token": "eyJhbGciOiJSdterNiIsInR5cCI6IkpXVCJ9.eyJzdWIiOnsibmFtZXNwYWNlIjoiL2VudmVsb3Blcy81ODJmOGVhOTc1ZWI0YzAwMTRmODI1YzEiLCJvcmRlciI6MTAwLCJzaWduaW5nTWV0aG9kIjoiZW1haWwiLCJlbWFpbCI6InJhZHVAY29jaWVydS5jb20iLCJsYW5ndWFnZSI6ImVuIiwiZ2l2ZW5OYW1lIjoiUmFkdSIsImZhbWlseU5hbWUiOiJDb2NpZXJ1IiwidWlkIjoiL2VudmVsb3Blcy81ODJmOGVhOTc1ZWI0YzAwMTRmODI1YzEvcmVjaXBpZW50cy81ODJmOGViOTc1ZWI0YzAwMTRmODI1YzkiLCJ2ZXJzaW9uIjoxMTIsImRlbGV0ZWQiOmZhbHNlLCJjb21wbGV0ZWQiOmZhbHNlLCJub3RpZmllZCI6ZmFsc2UsImRlbWFuZEF0dGFjaG1lbnQiOmZhbHNlLCJyb2xlIjp7Im5hbWUiOiJzaWduZXIiLCJhY3Rpb24iOiJzaWduIiwibGFiZWwiOiJTaWduZXIifSwiaWQiOiI1ODJmOGViOTc1ZWI0YzAwMTRmODI1YzkifSwiaWF0IjoxNDc5NTExNzQ0LCJyb2xlcyI6WyIvcm9sZXMvc2lnbmF0b3J5IiwiL3JvbGVzL3NpZ25hdG9yeS9lbnZlbG9wZXMvNTgyZjhlYTk3NWViNGMwMDE0ZjgyNWMxIl0sInBlcm1zIjpbeyJhY3Rpb24iOlsiUE9TVCJdLCJyZXNvdXJjZSI6Il4vZW52ZWxvcGVzLzU4MmY4ZWE5NzVlYjRjMDAxNGY4MjVjMS9kb2N1bWVudHMvW14vXSsvc2lnbmF0dXJlcyQifV0sImF1ZCI6InNpZ25hdG9yeSIsImV4cCI6MTQ4MDM3NTc0NH0.pdEoxBsPmjMhBm1LCRoTqHxcpRmXo34OSnCgvEu7jYoTGxTvjjtNQcDmN0YTN_sF8k_KTLVmRNM06J3w826iNklFsPt0Ad24NvwIWxwsA5blfuF1Ky1aHN3b8KpmK0khmoPWA2zKhzXQmB39zO86QeI8rRdMqee5TkWYuR-sPFkQ-as-hVg7MLraNDEIv7eeJqCmmZ562SURnCk_cxOcL-w3XnD3uxlFnJ-Mmymeuy9Ka_3urvyI3jcYJ6G7y9Y3unt-JsiLeGsknqcBcFzuWhOPMEUnkfJZUzdg3t9GNb1sppOPBkA8v3pF3yl1z37347MJ7sUVy3Pi_9wh-sHTtQ",
+  "company": {
+	"logo": "https://verified-dev.c11.io/assets/emails/logo-verified.png"
+  },
+  "signedDocuments":[
+	{
+	  "namespace": "/envelopes/582f8ea975eb4c0014f825c1",
+	  "descriptor": "1",
+	  "name": "195205111916-NO_NAME-CircleK-application.pdf",
+	  "modified": "2016-11-18T23:28:47.545Z",
+	  "created": "2016-11-18T23:28:47.545Z",
+	  "uid": "/envelopes/582f8ea975eb4c0014f825c1/documents/582f8eaf75eb4c0014f825c3",
+	  "version": 346,
+	  "deleted": false,
+	  "trashed": false,
+	  "signed": false,
+	  "rejected": false,
+	  "tags": [],
+	  "signatures": [],
+	  "signedFile": {
+		"id": 11212,
+		"uid": "/envelopes/documents/213123123123",
+		"name": "Att"
+	  },
+	  "files": {
+		"attachments": [{
+		  "id": 11212,
+		  "name": "Att"
+		}]
+	  },
+	  "source": "file",
+	  "flow": [
+		null
+	  ],
+	  "id": "582f8eaf75eb4c0014f825c3"
+	}
+  ]
+}

@@ -1,0 +1,18 @@
+table.documents for(document in data.documents) cellspacing="0" cellpadding="0" border="0"
+	tr
+		td.icon -- <img class="document-small" src="${out.global.BASE}/assets/emails/document-small.png"/>
+		td.document-name
+			a target="_blank" href="${
+				document.actionLink || (out.global.BASE + '/api' + document.signedFile.uid + '/url?access_token=' + data.token)
+			}"
+				-- ${document.name || document.signedFile.name}
+	tr for(attachment in (document.files.attachments || []))
+		td.icon -- <img class="document-small" src="${out.global.BASE}/assets/emails/attachment-small.png"/>
+		td.attachment-name
+			if(attachment.url && attachment.url.indexOf('http')===0)
+				a target="_blank" href=attachment.url -- ${attachment.name}
+			else
+				a target="_blank" href="${
+					attachment.actionLink || (out.global.BASE + '/api' + document.uid + '/files/' + attachment.id + '/url?access_token=' + data.token)
+				}"
+					-- ${attachment.name}

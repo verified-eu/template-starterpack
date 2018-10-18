@@ -1,0 +1,21 @@
+layout-use("./common/layout.marko") company=data.company
+	layout-put into="subject"
+		-- ${out.global.i18n.t('expiration reminder - email subject', data)}
+	layout-put into="body"
+		h1.title
+			-- ${out.global.i18n.t('expiration reminder - header')}
+		br
+		br
+		pre.message -- ${data.envelope.greeting}
+		br
+		table.documents cellspacing="0" cellpadding="0" border="0"
+			tr for(doc in data.envelope.documents)
+				td.icon -- <img class="document-small" src="${out.global.BASE}/assets/emails/document-small.png"/>
+				td.document-name
+				 	a -- ${doc.name}
+		br
+		br
+		center
+			a.button target="_blank" href="${data.SIGN_BASE}/#/sign${data.envelope.uid}?access_token=${data.token}&lang=${out.global.i18n.t('$iso')}"
+				strong.button-content
+					-- ${out.global.i18n.t('expiration reminder - action')}

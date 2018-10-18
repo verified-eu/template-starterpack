@@ -1,0 +1,20 @@
+layout-use("./common/layout.marko") company=data.company
+	layout-put into="subject"
+		-- ${out.global.i18n.t('envelope completed - email subject', data)}
+	layout-put into="body"
+		img.document-notification src="${out.global.BASE}/assets/emails/notification-completed.png"
+		br
+		br
+		h1.title -- ${out.global.i18n.t('envelope completed - header')}
+		br
+		table.documents for(document in data.signedDocuments) cellspacing="0" cellpadding="0" border="0"
+			tr
+				td.icon -- <img class="document-small" src="${out.global.BASE}/assets/emails/document-small.png"/>
+				td.document-name
+					a target="_blank" href="${out.global.BASE}/api${document.signedFile.url}?access_token=${data.token}&lang=${out.global.i18n.t('$iso')}"
+						-- ${document.name}
+			tr for(attachment in document.attachments)
+				td.icon -- <img class="document-small" src="${out.global.BASE}/assets/emails/attachment-small.png"/>
+				td.attachment-name
+					a target="_blank" href="${out.global.BASE}/api${attachment.url}?access_token=${data.token}&lang=${out.global.i18n.t('$iso')}"
+						-- ${attachment.name}

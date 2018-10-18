@@ -1,0 +1,98 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Demo Template</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="./resources/css/style.css">
+	<link rel="shortcut icon" href="https://verified-dev.c11.io/assets/favicon.png">
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Mono|Open+Sans' rel='stylesheet' type='text/css'>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/fetch/2.0.1/fetch.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/es6-shim/0.35.2/es6-shim.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.6/angular.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.6/angular-animate.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/danialfarid-angular-file-upload/12.2.13/ng-file-upload-all.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-aria.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-messages.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.5.0/ui-bootstrap-tpls.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/angular-i18n/1.6.6/angular-locale_no.js"></script>
+	<script src="./resources/ve-form/0.1.5/ve-form.js"></script>
+	<script src="./resources/ve-form/0.1.5/ve-dates.js"></script>
+	<script src="./resources/ve-form/0.1.5/ve-upload.js"></script>
+	<script type="text/javascript" src="./scripts/main.js"></script>
+	<script src="./resources/ve-lib/1.2.3/ve.core.js"></script>
+	<script src="./resources/ve-lib/1.2.2/ve.private_templates.js"></script>
+	<script src="./resources/ve-lib/1.2.3/ve.public_templates_dev.js"></script>
+	<script src="./resources/ve-lib/1.2.2/ve.bisnode.js"></script>
+</head>
+
+<body ng-app="mainApp" ng-controller="mainController">
+
+	<ve-header logo="http://via.placeholder.com/375x175" label="Demo Template"></ve-header>
+
+	<br />
+
+	<ve-alert-box items='{
+		"error1": {"show":"error1", "type":"danger", "text":"Fatal error while loading descriptor"}
+	}'></ve-alert-box>
+
+
+	<form name="mainForm" ng-submit="submit()" novalidate>
+
+		<div class="flex-columns">
+			<ve-label bold cols="1" label="Current payload"></ve-label>
+			<ve-label bold cols="1" nolabel><span style="word-wrap: break-word;">{{ data }}</span></ve-label>
+		</div>
+
+		<br />
+
+		<div class="flex-columns">
+			<ve-label bold cols="1" label="Add some extra data to the payload"></ve-label>
+			<ve-input cols="3" label="First Name" key="firstName" required></ve-input>
+			<ve-input cols="3" label="Last Name" key="lastName" required></ve-input>
+			<ve-input cols="3" label="Email" type="email" key="email" required></ve-input>
+			<ve-textarea label="Extra info" cols="1" key="extra"></ve-textarea>
+		</div>
+
+		<br>
+
+		<div class="flex-columns">
+			<ve-label bold cols="1" label="Which of these pets do you own?" tip='{ "text": "Dragons do exist" }'></ve-label>
+			<ve-checkbox cols="1" bold nolabel key="pets_i_own" required items='{
+				"dog": "Dog",
+				"cat": "Cat",
+				"dragon": "Dragon"
+			}' inline></ve-checkbox>
+		</div>
+
+		<br />
+
+		<div class="flex-columns">
+			<ve-label bold cols="1" label="What's your first language?"></ve-label>
+			<ve-radio cols="1" bold nolabel key="firstLang" required items='{
+				"english": "English",
+				"norwegian": "Norwegian",
+				"cat": { "text": "Other", "input": "text", "key": "language_other", "width": "200px" }
+			}' inline></ve-radio>
+		</div>
+
+		<br />
+
+		<ve-alert-box items='{
+			"invalid": {"show":"mainForm.$invalid", "text": "All fields marked with red must be filled in before you can continue", "type":"danger"}
+		}'></ve-alert-box>
+
+		<ve-buttons items='{
+			"save": {"type":"button", "click":"submit()", "value":"Submit and go to signing", "disabled":"mainForm.$invalid||busy"}
+		}'></ve-buttons>
+
+	</form>
+
+		<ve-busy show="busy" items='{
+		}'></ve-busy>
+
+</body>
+</html>

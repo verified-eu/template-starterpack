@@ -1,0 +1,21 @@
+layout-use("./common/layout.marko") company=data.company
+	layout-put into="subject"
+		-- ${out.global.i18n.t('document rejected - email subject', data)}
+	layout-put into="body"
+		img.document-notification src="${out.global.BASE}/assets/emails/notification-rejected.png"
+		br
+		br
+		h1.title
+			-- ${out.global.i18n.t('document rejected - header', data)}
+		br
+		table.documents cellspacing="0" cellpadding="0" border="0"
+			tr
+				td.icon -- <img class="document-small" src="${out.global.BASE}/assets/emails/document-small.png"/>
+				td.document-name
+					a href="#"
+						-- ${out.global.get("document.name") || out.global.get("document.files.document.name")}
+		br
+		p
+			-- $!{out.global.i18n.t('document rejected - body', data)}
+		p.reject
+			-- $!{out.global.get("signature.comment")}

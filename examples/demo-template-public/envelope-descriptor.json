@@ -1,0 +1,40 @@
+{
+    "name": "Demo Public Template",
+    "public": true,
+    "documents": [
+        {
+            "type": "template",
+            "template": {
+                "type": "iframe",
+                "pdfHtml": "demo-template/demo-template-pdf-print.marko",
+                "html": "/lib/iframes/demo-template-public/"
+            },
+            "numMin": 1,
+            "numMax": 1,
+            "hash": 1,
+            "label": "Demo Template"
+        }
+    ],
+    "roles": [
+        {
+            "action": {
+                "methods": [
+                    "bankid-no",
+                    "bankid-se",
+                    "email"
+                ],
+                "type": "sign"
+            },
+            "description": "The person that will sign the document",
+            "label": "Sign document",
+            "numMax": 1,
+            "numMin": 1,
+            "order": 1,
+            "roleName": "signer"
+        }
+    ],
+    "flow": {
+        "name": "Demo",
+        "id": "/flows/simple-public-flow"
+    }
+}

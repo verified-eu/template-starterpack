@@ -1,0 +1,6 @@
+table.documents cellspacing="0" cellpadding="0" border="0"
+	var documents = data.documents || out.global.get('envelope.documents');
+	tr for(doc in documents)
+		td.icon -- <img class="document-small" src="${out.global.BASE}/assets/emails/document-small.png"/>
+		td.document-name
+			a -- ${doc.name || out.global.get("files.document.name", doc) || out.global.get("descriptor.label", doc)}

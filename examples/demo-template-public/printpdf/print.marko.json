@@ -1,0 +1,11 @@
+{
+   "firstName":"Bobby",
+   "lastName":"Joe",
+   "email":"bob.joe@example.com",
+   "extra":"Some extra text",
+   "pets_i_own":{
+      "dragon":true,
+      "dog":true
+   },
+   "firstLang":"norwegian"
+}

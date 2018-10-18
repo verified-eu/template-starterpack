@@ -1,0 +1,490 @@
+{
+	"title": {
+		"en": "Customer Due Diligence form - Person", 
+		"nb": "Kundekontroll - Person"
+	},
+	"topText0": {
+		"en": "Pursuant to Act of 6 March 2009, No. 11, relating to measures to combat money laundering and terrorist financing (Money Laundering Act), ",
+		"nb": ""
+	},
+	"topText1": {
+		"en": "has the duty to carry out customer due diligence when establishing business relationships and providing certain services. Based on this, we kindly request the customer to fill in this form and sign with Norwegian BankID as identification. ",
+		"nb": "har i henhold til lov 6. mars 2009 nr. 11 om tiltak mot hvitvasking og terrorfinansiering mv. (hvitvaskingsloven) plikt til å foreta kundekontroll ved etablering av kundeforhold. På denne bakgrunn ber vi vennligst om at dette skjemaet fylles ut og signeres med BankID. "
+	},
+	"topText2": {
+		"en": "Please note that in accordance with the Money Laundering Act,",
+		"nb": "Det gjøres oppmerksom på at"
+	},
+	"topText3": {
+		"en": "may have the duty to carry out further due diligence measures (Enhanced Customer Due Diligence). ",
+		"nb": "i henhold til hvitvaskingsloven vil kunne være underlagt plikt til å gjennomføre ytterligere kontrolltiltak. "
+	},
+	"customerRelationship": {
+		"en": "I - Details on the customer relationship",
+		"nb": "I - Opplysninger om kundeforholdet"
+	},
+	"customerInfo": {
+		"en": "II - Customer details",
+		"nb": "II - Opplysninger om kunden"
+	},
+	"infoOwners": {
+		"en": "III - Details on beneficial owners",
+		"nb": "III - Informasjon om reelle rettighetshavere"
+	},
+	"infoPEPs": {
+		"en": "IV - Politically exposed persons",
+		"nb": "IV - Politisk eksponerte personer"
+	},
+	"ownersInfo": {
+		"en": "Beneficial owners are potential entities on whose behalf a transaction is carried out. Below please state if there are any beneficial owners involved in the assignment.",
+		"nb": "Reelle rettighetshavere er eventuelle fysiske personer som en transaksjon gjennomføres på vegne av. Vennligst angi nedenfor om det er reelle rettighetshavere i forbindelse med oppdraget."
+	},
+	"ownersQ1": {
+		"en": "There are no beneficial owners involved in the assignment",
+		"nb": "Det er ikke reelle rettighetshavere i forbindelse med oppdraget"
+	},
+	"ownersQ2": {
+		"en": "There are beneficial owners involved in the assignment, and information regarding these are provided below or in an annex to this form",
+		"nb": "Det er reelle rettighetshaver(e) i forbindelse med oppdraget, og opplysninger denne/disse er inntatt nedenfor eller i vedlegg til skjemaet"
+	},
+	"ownersTip": {
+		"en": "Major beneficial owners are defined as physical persons",
+		"nb": "Reelle rettighetshavere omfatter eventuelle fysiske personer som"
+	},
+	"ownersTip1": {
+		"en": "who directly or indirectly own or control more than 25 % of the shares or votes of the customer;",
+		"nb": "direkte eller indirekte eier eller kontrollerer mer enn 25 % av eierandelene eller stemmene i kunden;"
+	},
+	"ownersTip2": {
+		"en": "who by any other means are in control of  the customer; or",
+		"nb": "på annen måte utøver kontroll over ledelsen av kunden; eller"
+	},
+	"ownersTip3": {
+		"en": "on whose behalf a transaction is carried out.",
+		"nb": "en transaksjon gjennomføres på vegne av."
+	},
+	"ownersTip3": {
+		"en": "on whose behalf a transaction is carried out.",
+		"nb": "en transaksjon gjennomføres på vegne av."
+	},
+	"ownerStructure": {
+		"en": "Provide a description of the owner group",
+		"nb": "Gi en beskrivelse ev eiergruppen"
+	},
+	"documentQuery": {
+		"en": "Please send the following documentation to kundekontroll@selmer.no:",
+		"nb": "Følgende dokumentasjon bes vennligst sendes inn til kundekontroll@selmer.no:"
+	},
+	"doc1": {
+		"en": "If the customer is a Norwegian enterprise: Certificate of Registration, not older than 3 months. If the customer is a foreign enterprise: Certificate or transcript from a public register stating name, business address or place of headquarter and registration number, if any",
+		"nb": "Dersom kunden er et norsk foretak: Firmaattest som ikke er eldre enn 3 måneder. Dersom kunden er et utenlandsk foretak: Attest eller utskrift fra offentlig register som gir opplysninger om navn, adresse for forretningssted eller hovedkontor og eventuelt organisasjonsnummer"
+	},
+	"doc2": {
+		"en": "Certified copy of valid passport, bank ID card issued by a Norwegian bank  or driver’s licence for the person signing this form",
+		"nb": "Bekreftet kopi av gyldig pass, norsk bankkort eller førerkort for vedkommende som undertegner dette skjemaet"
+	},
+	"doc3": {
+		"en": "Documentation authorizing the person signing this form to represent the customer (e.g. Certificate of Registration, Memorandum of Association or power of attorney in writing)",
+		"nb": "Dokumentasjon som viser at vedkommende som undertegner dette skjemaet er berettiget til å representere kunden utad (f.eks. firmaattest, stiftelsesdokument eller skriftlig fullmakt)"
+	},
+	"companyInfo": {"en": "COMPANY DETAILS", "nb": "FIRMAOPPLYSNINGER"},
+	"brregDetails": {"en": "DETAILS FROM THE BRØNNØYSUND REGISTER", "nb": "DETALJER FRA BRØNNØYSUNDREGISTERET"},
+	"infoCEO": {"en": "DETAILS ON CEO", "nb": "INFORMASJON OM DAGLIG LEDER"},
+	"infoPersons": {"en": "DETAILS ON PHYSICAL PERSONS", "nb": "INFORMASJON OM FYSISKE PERSONER"},
+	"infoEntities": {"en": "DETAILS ON LEGAL ENTITIES", "nb": "INFORMASJON OM JURIDISKE ENHETER"},
+	"infoBusiness": {"en": "DETAILS ON THE PURPOSE AND AIM OF THE BUSINESS RELATIONSHIP", "nb": "FORRETNINGSRELASJONENS HENSIKT OG MÅL"},
+	"signOrForward": {"en": "SIGN OR FORWARD FORM", "nb": "SIGNÉR ELLER VIDERESEND SKJEMA"},
+	"choose": {"en": "Choose", "nb": "Velg"},
+	"chooseClientType": {"en": "Choose client type", "nb": "Velg kundetype"},
+	"clientType": {"en": "Client type", "nb": "Type kunde"},
+	"client": {"en": "Client", "nb": "Kunde"},
+	"language": {"en": "Language", "nb": "Språk"},
+	"enterprise": {"en": "Enterprise", "nb": "Selskap"},
+	"private": {"en": "Private person", "nb": "Privatperson"},
+	"select": {"en": "Select", "nb": "Velg"},
+	"Country": {"en": "Country", "nb": "Land"},
+	"companyName": {"en": "Company name", "nb": "Fullt foretaksnavn"},
+	"orgNumber": {"en": "Registration number", "nb": "Organisasjonsnummer"},
+	"typeToSearch": {"en": "Type to search", "nb": "Skriv for å søke"},
+	"nineDigits": {"en": "9 numbers to search", "nb": "9 tall for å søke"},
+	"address": {"en": "Address", "nb": "Adresse", "se": "Adress"},
+	"permanentAddress": {"en": "Permanent address", "nb": "Fast adresse"},
+	"visitingAddress": {"en": "Visiting address", "nb": "Besøksadresse", "se": "Besöksadress"},
+	"postalAddress": {"en": "Postal address", "nb": "Postadresse", "se": "Postadress"},
+	"businessAddress": {"en": "Business address", "nb": "Forretningsadresse"},
+	"postalCode": {"en": "Zip code", "nb": "Postnummer", "se": "Postnr"},
+	"postalTown": {"en": "Town", "nb": "Poststed", "se": "Postort"},
+	"business": {"en": "Business", "nb": "Bransje"},
+	"businessCode": {"en": "Business code", "nb": "Bransjekode"},
+	"InBrReg": {"en": "In the unified register", "nb": "I enhetsregisteret"},
+	"InFoReg": {"en": "In the company register", "nb": "I foretaksregisteret"},
+	"InMvaReg": {"en": "In the VAT-register", "nb": "I MVA-registeret"},
+	"Konkurs": {"en": "Bankrupt", "nb": "Konkurs"},
+	"Avvikling": {"en": "Under liquidation", "nb": "Under avvikling"},
+	"Tvangs": {"en": "Under compulsory liquidation", "nb": "Under tvangsavvikling/oppløsning"},
+	"firstName": {"en": "First name", "nb": "Fornavn", "se": "Förnamn"},
+	"lastName": {"en": "Last name", "nb": "Etternavn", "se": "Efternamn"},
+	"givenName": {"en": "First name", "nb": "Fornavn", "se": "Förnamn"},
+	"familyName": {"en": "Last name", "nb": "Etternavn", "se": "Efternamn"},
+	"nationality": {"en": "Nationality", "nb": "Nasjonalitet", "se": ""},
+	"dateOfBirth": {"en": "Date of birth", "nb": "Fødselsdato", "se": ""},
+	"personNumber": {"en": "National identity number", "nb": "Personnummer", "se": "Personnummer"},
+	"phone": {"en": "Phone", "nb": "Telefon", "se": "Telefonnr"},
+	"phoneNumber": {"en": "Phone number", "nb": "Telefonnummer", "se": "Telefonnummer"},
+	"mobile": {"en": "Mobile", "nb": "Mobil", "se": "Mobilnr"},
+	"email": {"en": "E-mail", "nb": "E-post", "se": "E-post"},
+	"yes": {"en": "Yes", "nb": "Ja", "se": "Ja"},
+	"no": {"en": "no", "nb": "Nei", "se": "Nej"},
+	"theFirst": {"en": "The first", "nb": "Første", "se": "Första"},
+	"theSecond": {"en": "The second", "nb": "Andre", "se": "Andra"},
+	"theThird": {"en": "The third", "nb": "Tredje", "se": "Tredje"},
+	"theFourth": {"en": "The fourth", "nb": "Fjerde", "se": "Fjärde"},
+	"partComplete": {
+		"en": "part of the form is now completed and you may continue",
+		"nb": "del av skjemaet er nå utfylt og du kan gå videre",
+		"se": "delen är korrekt ifyllt och du kan fortsätta"
+	},
+	"notComplete": {
+		"en": "All fields with red color must be completed before you can continue",
+		"nb": "Du må fylle ut alle felt som er merket med rød farge før du kan gå videre",
+		"se": "Rödmarkerade fälten är obligatoriska och måste fyllas i innan du kan gå vidare"
+	},
+	"continue": {"en": "Continue", "nb": "Gå videre", "se": "Fortsätta"},
+	"next": {"en": "Next", "nb": "Neste", "se": "Nästa"},
+	"back": {"en": "Back", "nb": "Tilbake", "se": "Tillbaka"},
+	"ownersText": {
+		"en": "A major beneficail owner is an owner that holds or controls 25% or more of the shares or votes in the company. ",
+		"nb": "Med reell rettighetshaver menes eiere som direkte eller indirekte innehar 25% eller mer av eiende/kontrollen av selskapet eller 25% eller mer av kapitalen/stemmerettene i selskapet.",
+		"se": "Ange de fysiska personer som direkt eller indirekt kontrollerar mer än 25 % av bolaget (verklig huvudman) samt markera med kryss om någon av dessa är en person i politisk utsatt ställning (PEP) eller skattskyldig annat land än Sverige."
+	},
+	"noMajorOwners": {
+		"en": "The customer has no major beneficial owners",
+		"nb": "Selskapet har ingen reelle rettighetshavere"
+	},
+	"majorOwners": {
+		"en": "The customer has major beneficial owners",
+		"nb": "Kunden har reelle rettighetshaver(e)"
+	},
+	"otherOwners": {
+		"en": "The customer has major beneficial owners and details have been provided separately",
+		"nb": "Kunden har reelle rettighetshaver(e) og opplysninger om denne/disse er innsendt separat"
+	},
+	"numberOfPersons": {"en": "Number of physical persons", "nb": "Antall fysiske personer"},
+	"numberOfEntities": {"en": "Number of legal entities", "nb": "Antall juridiske enheter"},
+	"personsText": {
+		"en": "Supply details on physical persons that directly or indirectly controls 25% or more of the company, or have a decisive influence in the company.",
+		"nb": "Oppgi informasjon om fysiske personer som direkte eller indirekte eier 25% eller mer av selskapet, eller har en bestemmende innflytelse over selskapet."
+	},
+	"entitiesText": {
+		"en": "Supply details on juridical entities that directly or indirectly controls 25% or more of the company, or have a decisive influence in the company.",
+		"nb": "Oppgi informasjon om juridiske enheter som direkte eller indirekte eier 25% eller mer av selskapet, eller har en bestemmende innflytelse over selskapet."
+	},
+	"physicalPerson": {"en": "Physical person", "nb": "Fysisk person"},
+	"legalEntity": {"en": "Legal entity", "nb": "Juridisk enhet"},
+	"percentage": {"en": "percentage", "nb": "prosentandel"},
+	"percent": {"en": "percent", "nb": "prosent"},
+	"PEPsQuery": {
+		"en": "Below, please state if the undersigned and/or beneficial owner(s) are politically exposed persons:",
+		"nb": "Vennligst angi nedenfor om reelle rettighetshavere og/eller undertegnede er en politisk eksponert person:"
+	},
+	"PEPsText": {
+		"en": "A politically exposed person is a person who:",
+		"nb": "En politisk eksponert person er en person som:"
+	},
+	"PEPsT1": {
+		"en": "currently or recently has been holding a high-ranking public function or position in a country other than Norway;",
+		"nb": "innehar eller i løpet av det siste året har innehatt høytstående offentlig verv eller stilling i en annen stat enn Norge;"
+	},
+	"PEPsT2": {
+		"en": "is in a close family relation to a person as described in no. 1; or",
+		"nb": "er nært familiemedlem til person som beskrevet i nr. 1; eller"
+	},
+	"PEPsT3": {
+		"en": "is a known associate of a person as described in no. 1",
+		"nb": "er kjent medarbeider til person som nevnt i nr. 1."
+	},
+	"PEPsInfo": {
+		"en": "The concepts ”holder of high-ranking public function or position”, ”closely related” and ”known colleague” are more closely defined in regulation of 13 March 2009, No. 302, relating to measures to combat money laundering and financing of terrorism, etc. (Money Laundering Regulation), Section 11, which is available",
+		"nb": "Begrepene ”innehaver av høytstående offentlig verv eller stilling”, ”nært familiemedlem” og ”kjent medarbeider” er nærmere definert i forskrift 13. mars 2009 nr. 302 om tiltak mot hvitvasking og terrorfinansiering (hvitvaskingsforskriften) § 11, som er tilgjengelig"
+	},
+	"PEPsQ1": {
+		"en": "The undersigned is not a politically exposed person",
+		"nb": "Undertegnede er ikke en politisk eksponert person"
+	},
+	"PEPsQ2": {
+		"en": "The undersigned is a politically exposed person",
+		"nb": "Undertegnede er en politisk eksponert person"
+	},
+	"PEPsQ3": {
+		"en": "Major beneficial owners are not politically exposed persons",
+		"nb": "Reelle rettighetshaver(e) er ikke en politisk eksponert person"
+	},
+	"PEPsQ4": {
+		"en": "Major beneficial owners are politically exposed persons",
+		"nb": "Reelle rettighetshaver(e) er en politisk eksponert person"
+	},
+	"PEPsSpecify": {
+		"en": "Full name of beneficial owners who are politically exposed persons",
+		"nb": "List opp reelle rettighetshavere som er en politisk eksponert person"
+	},
+	"PEPsQA": {
+		"en": "Which positions have you served in during the past 18 months?",
+		"nb": "Hvilken funksjon har du, eller har du hatt, de siste 18 månedene?",
+		"se": "Vilken funktion har du eller har haft de senaste 18 månaderna?"
+	},
+	"PEPsA1": {
+		"en": "Heads of State, heads of government, ministers and deputy or assistant ministers",
+		"nb": "Statsledere, regjeringsledere, statsråder og deres assistenter",
+		"se": "Statschef, regeringschef eller minister (även vice eller biträdande)"
+	},
+	"PEPsA2": {
+		"en": "Member of parliaments",
+		"nb": "Medlemm av storting, parlament og lignende lovgivende institusjoner",
+		"se": "Parlamentsledamot/Riksdagsledamot"
+	},
+	"PEPsA3": {
+		"en": "Member of the governing organisation of political parties",
+		"nb": "Medlem av styringsorganisasjon til politiske parti",
+		"se": "Medlem av den styrande organisationen för politiskt parti"
+	},
+	"PEPsA4": {
+		"en": "Member of supreme courts, of constitutional courts or of other high-level judicial bodies whose decisions are not subject to further appeal, except in exceptional circumstances",
+		"nb": "Medlem av høyesterett, av konstitusjonelle eller andre høyere rettsinstanser hvis avgjørelser ikke kan apelleres videre untatt i eksepsjonelle tilfeller",
+		"se": "Domare i högsta domstolen eller motsvarande"
+	},
+	"PEPsA5": {
+		"en": "Member of courts of auditors or of the boards of central banks",
+		"nb": "Medlem av oversynsmyndighet for eller styret til sentralbanker",
+		"se": "Ledamot i centralbanks styrande organ"
+	},
+	"PEPsA6": {
+		"en": "Ambassador, chargés d'affair or high-ranking officer in the armed forces",
+		"nb": "Ambassadør, chargés d'affair eller høyt rangert offiser i forsvaret",
+		"se": "Ambassadör, diplomatiskt sändebud, eller hög officerare i försvarsmakten"
+	},
+	"PEPsA7": {
+		"en": "Member of the administrative, management or supervisory bpdy of State-owned enterprises",
+		"nb": "Medlemm av administrasjon, styre eller oversynsmyndighet for et statseid selskap",
+		"se": "Person som ingår i ett statsägt bolags förvaltnings-, ledning eller kontrollorgan"
+	},
+	"PEPsA8": {
+		"en": "Director or member of the governing body of an international organisation",
+		"nb": "Direktør, assisterende direktør eller styremedlem eller tilsvarende for en internasjonal organisasjon",
+		"se": "Ledningsfunktion i internationell organisation"
+	},
+	"PEPTitle": {
+		"en": "Provide title",
+		"nb": "Oppgi tittel",
+		"se": "Ange titel"
+	},
+	"PEPEntity": {
+		"en": "State country or international organisation",
+		"nb": "Oppgi land eller internasjonal organisasjon",
+		"se": "Ange land/internationell organisation"
+	},
+	"PEPsTextB": {
+		"en": "None of the categories set out above shall be understood as covering middle ranking or more junior officials. PEP also applies to immediate family members, which includes:",
+		"nb": "Ingen offentlig funksjon referert til i punktene over skal bli forstått å gjelde for middels eller lavere-rangerte stillinger. PEP gjelder også for nære familiemedlemmer, som inkluderer:",
+		"se": "Ingen av de kategorier som avses ovan skall tolkas som att tjänstemän på mellannivå eller lägre tjänstemän omfattas av definitionen. PEP gäller även närmaste familjemedlemmar, inklusive:"
+	},
+	"PEPsTipB": {
+		"en": "With family members it is understood parents, spouse or registered partner, and children and their spouse or partners.",
+		"nb": "Med familiemedlem menes foreldre, ektefelle, samboer, partner, barn og barns ektefelle, samboer eller registrerte partner.",
+		"se": "Med familjemedlem avses föräldrar, make/maka, registrerad partner, sambo barn och även barns make/maka, registrerade partner eller sambo."
+	},
+	"PEPsQB": {
+		"en": "Specify the family relationship",
+		"nb": "Angi familieforhold",
+		"se": "Ange relation enligt följande alternativ"
+	},
+	"PEPsB1": {
+		"en": "The spouse, or any partner considered by national law as equivalent to the spouse",
+		"nb": "Ektefelle, eller person i tilsvarende partnerskap",
+		"se": "Maka/make, sambo, registrerad partner"
+	},
+	"PEPsB2": {
+		"en": "Parent",
+		"nb": "Foreldre",
+		"se": "Föräldrar"
+	},
+	"PEPsB3": {
+		"en": "Child",
+		"nb": "Barn",
+		"se": "Barn"
+	},
+	"PEPsB4": {
+		"en": "A childs spouse or registered partner",
+		"nb": "Barns ektefelle, samboer eller registrerte partner",
+		"se": "Barns make/maka, sambo, registrerad partner"
+	},
+	"PEPsB5": {
+		"en": "Known collaborator",
+		"nb": "Kjent medarbeider",
+		"se": "Känd medarbetare"
+	},
+	"PEPsB6": {
+		"en": "Other known associate",
+		"nb": "Annen nær forbindelse",
+		"se": "Annan nära förbindelse"
+	},
+	"PEPsQC": {
+		"en": "Specify the persons function",
+		"nb": "Oppgi personens funksjon",
+		"se": "Ange personens funktion enligt följande alternativ"
+	},
+	"PEPsTextC": {
+		"en": "PEP also applies to persons known to be close associates, specificly",
+		"nb": "PEP gjelder også personer som er kjente forbindelser, altså",
+		"se": "PEP gäller även för personer som är kända medarbetare, dvs."
+	},
+	"PEPsC1": {
+		"en": "Any natural person who is known to have joint beneficial ownership of legal entities or legal arrangements, or any other close business relations, with a PEP",
+		"nb": "Fysiske personer som det vites har felles eierskap av juridiske enheter eller juridiske ordninger, eller noen andre nære forretningsforbindelser, med en PEP",
+		"se": "Fysiska personer om vilka det är känt att de gemensamt med den person som avses i punkt 1 är verkliga förmånstägare till juridiska enheter eller juridiska konstruktioner, eller som på annat sätt haft nära affärsförbindelser med en PEP,"
+	},
+	"PEPsC2": {
+		"en": "Any natural person who has sole beneficial ownership of a legal entity or legal arrangement which is known to have been set up for the benefit de facto of a PEP",
+		"nb": "Fysiske personer som er eneeier til en juridisk enhet eller annen ordning som det vites er satt opp til de facto fordel for en PEP",
+		"se": "Fysiska personer som är ensamma förmånstägare till juridiska enheter eller juridiska konstruktioner om vilka det är känt att de egentligen har upprättats till förmån för en PEP"
+	},
+	"PEPSelf": {
+		"en": "Is the person in a politically exposed position (PEP)?",
+		"nb": "Er personen i en politisk utsatt stilling (PEP)?",
+		"se": "Är personen i politiskt utsatt ställning (PEP)?"
+	},
+	"PEPFamily": {
+		"en": "Is the person a family member or known associate of a person that is, or in the past 18 months has held, a politically exposed position?",
+		"nb": "Er personen familiemedlem eller en kjent forbindelse til en person som er, eller de siste 18 månedene har vært, i en politisk utsatt stilling?",
+		"se": "Är personen familjemedlem eller känd medarbetare med en person som är, eller som under de senaste 18 månaderna innehaft en viktig offentlig funktion?"
+	},
+	"function": {
+		"en": "Function",
+		"nb": "Funksjon",
+		"se": "Funktion"
+	},
+	"relation": {
+		"en": "Relation",
+		"nb": "Forhold",
+		"se": "Relation"
+	},
+	"here": {"en":"here", "nb":"her"},
+	"addPEP": {"en": "Add PEP", "nb": "Legg til PEP", "se": "Lägg till PEP"},
+	"removePEP": {"en": "Remove PEP", "nb": "Fjern PEP", "se": "Ta bort PEP"},
+	"addPerson": {"en": "Add person", "nb": "Legg til person", "se": "Lägg till person"},
+	"removePerson": {"en": "Remove person", "nb": "Fjern person", "se": "Ta bort person"},
+	"addEntity": {"en": "Add entity", "nb": "Legg til enhet", "se": "Lägg till enhet"},
+	"removeEntity": {"en": "Remove entity", "nb": "Fjern enhet", "se": "Ta bort enhet"},
+	"primaryPurpose": {
+		"en": "What is the primary purpose of your business relationship with",
+		"nb": "Hva er den primære anledningen til deres forretningsrelasjon med"
+	},
+	"purposeQuery": {
+		"en": "Purpose and intended nature of the customer relationship",
+		"nb": "Kundeforholdets formål og tilsiktede art"
+	},
+	"purposeQuery1": {"en": "Will the service provided by", "nb": "Kommer tjenesten hos"},
+	"purposeQuery2": {"en": "be used for business abroad", "nb": "til å benyttes for virksomhet i utlandet"},
+	"countryQuery": {
+		"en": "Report which countries you work with, and the fraction of the turnover involved",
+		"nb": "Angi hvilke land dere arbeider mot, samt hvor stor andel av deres omsetning det utgjør"
+	},
+	"addCountry": {"en": "Add country", "nb": "Legg til land"},
+	"removeCountry": {"en": "Remove country", "nb": "Fjern land"},
+	"roleInCompany": {"en": "Role in company", "nb": "Rolle i selskapet"},
+	"countryOfResidence": {"en": "Country of residence", "nb": "Oppholdsland"},
+	"servicesRendered": {"en": "Services rendered", "nb": "Tjenesteforhold"},
+	"legalAdvice": {"en": "Legal advice", "nb": "Juridisk rådgivning"},
+	"transaction": {"en": "Transaction", "nb": "Transaksjoner"},
+	"otherServices": {"en": "Other services", "nb": "Andre tjenester"},
+	"selectOneOrMore": {
+		"en": "Please select one or more services",
+		"nb": "Velg en eller flere tjenester"
+	},
+	"CEOQuery1": {
+		"en": "If you are the CEO of",
+		"nb": "Dersom du er daglig leder i"
+	},
+	"CEOQuery2": {
+		"en": "you may sign the form directly or send a link to yourself for later signing",
+		"nb": "så kan du signere skjemaet direkte eller sende en lenke til deg selv for å signere senere"
+	},
+	"notCEOQuery": {
+		"en": "If you are not the CEO you may send the form to the CEO or others in the board with signing rights",
+		"nb": "Dersom du ikke er daglig leder kan du velge å sende skjemaet til daglig leder eller andre i styret med signaturrett"
+	},
+	"signNowBID": {
+		"en": "I wish to sign the form with BankID now",
+		"nb": "Jeg vil signere skjemaet med BankID nå"
+	},
+	"signNow": {
+		"en": "I wish to sign the form now",
+		"nb": "Jeg har signaturrett og vil signere nå"
+	},
+	"signNowInfo": {
+		"en": "Supply your name and e-mail. (We will send a confirmation message with a signed copy to this address.)",
+		"nb": "Oppgi ditt navn og e-post. (Vi kommer til å sende bekreftelsesmail med signert eksemplar til denne adressen.)",
+		"se": "Ange ditt namn och e-post. (Vi kommer skicka bekräftelsemail med signerat exemplar till e-postadressen du anger nedan.)"
+	},
+	"signForward": {
+		"en": "Send a signing link to the given e-mail address",
+		"nb": "Jeg har ikke signaturrett og videresender derfor til signaturberettigede"
+	},
+	"signForwardInfo": {
+		"en": "Provide name and e-mail for the person you want to forward the document for signing to.",
+		"nb": "Oppgi navn og e-post til den du vil videresende dokumentet for signering til.",
+		"se": "Ange namn och e-post til den du önskar vidarebefordra dokumentet för signering till."
+	},
+	"thanksSign": {
+		"en": "Thank you! The form is complete and you may continue to signing by clicking the button below",
+		"nb": "Takk! Skjemaet er nå ferdig og du kan gå rett til signeringssiden ved å klikke knappen under"
+	},
+	"thanksForward": {
+		"en": "Thank you! The form is complete and has been forwarded to the given e-mail address",
+		"nb": "Takk! Skjemaet er nå ferdig utfylt og sendt videre for signering til oppgitt e-postadresse"
+	},
+	"pleaseSpecify": {"en": "Please specify", "nb": "Vennligst spesifiser"},
+	"associatedCompany": {"en": "Click here to add an associated company", "nb": "Klikk her for å legge til assosiert selskap"},
+	"otherDetails": {"en": "Other details", "nb": "Andre opplysninger"},
+	"clientNumber": {"en": "Client number", "nb": "Kundenummer"},
+	"otherInfo": {
+		"en": "Other relevant details",
+		"nb": "Annet"
+	},
+	"riskCategory": {
+		"en": "Risk category",
+		"nb": "Risikokategori"
+	},
+	"high": {"en": "High", "nb": "Høy"},
+	"medium": {"en": "Medium", "nb": "Middels"},
+	"low": {"en": "Low", "nb": "Lav"},
+	"bottomText": {
+		"en": "By digitally signing this form I confirm that I am the person described in the form. I accept that BankID is used as identification of my person. I understand that this information will be cross-checked against other registries and concur to this.",
+		"nb": "Ved å signere dette skjemaet elektronisk bekrefter jeg at jeg er den personen som beskrevet i skjemaet. Jeg aksepterer bruk av BankID som identifikasjon av min person. Jeg forstår at det vil bli gjennomført sjekk av mine opplysninger over mot andre registre og samtykker til dette."
+	},
+	"preparing": {
+		"en": "Preparing document for signing,",
+		"nb": "Forbereder dokument for signering,",
+		"se": "Förbereder dokument för signering,"
+	},
+	"pleaseWait": {
+		"en": "Please wait",
+		"nb": "Vennligst vent",
+		"se": "Vänligen vänta..."
+	},
+	"error": {
+		"en": "An error occurred",
+		"nb": "Feil oppstod",
+		"se": "Fejl oppstod"
+	},
+	"sign": {
+		"en": "Continue to signing",
+		"nb": "Fortsett til signering",
+		"se": "Fortsett til signering"
+	},
+	"done": {
+		"en": "Done",
+		"nb": "Fullfør",
+		"se": "Fullfør"
+	},
+	"test": {"en": "Test", "nb": "Test", "se": "Test"}
+}

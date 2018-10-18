@@ -1,0 +1,41 @@
+layout-use("./common/layout.marko") company=data.company
+	layout-put into="subject"
+		<!-- signer or reviewer -->
+		var roleName = out.global.get("recipient.role.name", data);
+		var prefix = 'notify '+roleName;
+		-- ${out.global.i18n.t( prefix + ' - email subject', data)}
+	layout-put into="body"
+		<!-- signer or reviewer -->
+		var roleName = out.global.get("recipient.role.name", data) || 'signer';
+		var prefix = 'notify '+roleName
+		var signBody = out.global.i18n.t('notify signatory - body', data)
+		var greeting = out.global.get('envelope.greeting');
+		var showGreeting = greeting && greeting != signBody;
+		var actionLink = data.actionLink || (data.config.SIGN_BASE +'/#/sign'+out.global.get('envelope.uid')+'?lang='+ out.global.i18n.t('$iso') +'&access_token='+ data.token)
+
+		h1.title
+			-- ${out.global.i18n.t(prefix + ' - header', data, out.global.get('recipient.role.label'))}
+		br
+		pre.message if(!showGreeting)
+			-- ${out.global.i18n.t(prefix + ' - body', data, out.global.get('recipient.role.label'))}
+
+		pre.message if(showGreeting)
+			-- ${greeting}
+		br
+		include("./common/documents-to-sign-list.marko", data)
+		br
+		br
+		center
+			a.button target="_blank" href="${actionLink+(data.redirectTo?("&redirect_to="+encodeURIComponent(data.redirectTo)):"")}"
+				strong.button-content
+					-- ${out.global.i18n.t(prefix + ' - action', data, out.global.get('recipient.role.label'))}
+		br
+		br
+
+		pre.message
+			-- ${out.global.i18n.t(prefix + ' - paragraph 1')}
+			br
+			br
+			-- ${out.global.i18n.t('signatory info - name and email', data)}
+			span if(out.global.get('envelope.sender.phone'))
+				-- ${out.global.i18n.t('signatory info - phone', data)}
